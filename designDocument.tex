@@ -1,9 +1,13 @@
 \documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\usepackage{graphicx}
 \usepackage[T2A]{fontenc}
+\usepackage[a4paper, margin=25mm, left=20mm, top=25mm, right=20mm, bottom=20mm, head=20mm, nofoot] {geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+
 
 \title{Дизайн документ}
-\author{Андриянов Арсений, Александрова Ксения, Левицкая Алиса, Печалинова Богдана, Соболев Григорий}
+\author{Андриянов Арсений, Александрова Ксения, Левицкая Алиса, \\ Печалинова Богдана, Соболев Григорий}
 
 
 \date{Ноябрь 2024}
@@ -14,22 +18,80 @@
 	
 	\tableofcontents
 	
+	\newpage
 	\section{Введение}
 	
+	\newpage
 	\section{Концепция}
 	
 	\subsection{Введение}
 	
+	\newpage
 	\subsection{Жанр и аудитория}
 	
+	\newpage
 	\subsection{Основные особенности игры}
 	
+	\newpage
 	\subsection{Описание игры}
 	
+	\newpage
 	\subsection{Предпосылки создания}
 	
+	Идея игры основывается на растущей популярности проектов, сочетающих психологический хоррор и элементы головоломки. Атмосферные инди-хорроры популярны в наши дни, как и игры с сильным визуальным стилем и глубоким сюжетом. Существование игр, совмещающих подобные жанры (например, "Yuppie Psycho", "Rusty Lake", "Amanda The Adventurer") демонстрирует, что игроки ищут в хорроре не только адреналин, но и глубокую историю с атмосферой, способной погрузить их в мир загадок, тревог и интриг. Данная игра предлагает уникальное сочетание: исследование мрачного, но знакомого мира, где реальность переплетается с мистикой, а каждое решение приводит к новым последствиям. \\
+	
+	\textit{Тенденции рынка:} сейчас растет популярность инди-игр с акцентом на хоррор стиль и атмосферу. Различные платформы (Steam, Epic Games) активно поддерживают проекты, которые выделяются своей эстетикой и идеей. Чёрно-белая палитра, минимализм и мистические элементы уже доказали свою успешность, привлекая как нишевых фанатов, так и широкую аудиторию. Кроме того, наличие нелинейного сюжета и элементов стратегии позволяет привлечь не только поклонников хорроров, но и игроков, ищущих интеллектуальные вызовы и разветвления в сюжете.
+	
+	\textit{Лицензирование и оригинальность:} весь игровой контент создаётся с упором на креативность, чтобы предложить уникальный продукт. Сюжет, персонажи и механики полностью авторские. \\
+	
+	Игры ужасов ценны своей способностью вызывать глубокий страх, который сложно испытать в реальной жизни, а эффект напряжения и последующего расслабления приносит игроку положительные эмоции. Наша игра построена на постоянном ощущении напряжения и дискомфорта, а не на банальных драках, что делает ее более осмысленной и эмоционально насыщенной. Это не просто аттракцион, а возможность для игрока испытать сложные чувства, исследуя мир, где мистика и реальность переплетаются. Проект имеет право на жизнь благодаря оригинальности концепции, сочетанию захватывающего геймплея с визуальным искусством и востребованности подобных игр на рынке.
+
+	\newpage
 	\subsection{Платформа}
 	
+	\begin{table}[h!]
+		\centering
+		\renewcommand{\arraystretch}{1.5}
+		\setlength{\tabcolsep}{8pt}
+		\begin{tabular}{|p{0.25\textwidth}|p{0.3\textwidth}|p{0.3\textwidth}|}
+			\hline
+			\multicolumn{3}{|c|}{\textbf{Для Windows}} \\ \hline
+			\textbf{Требования} & \textbf{Минимальные} & \textbf{Рекомендуемые} \\ \hline
+			\textit{Операционная система} & Windows 7 & Windows 10 \\ \hline
+			\textit{Процессор} & Quad-core Intel \newline или AMD processor & Intel Core i5 \\ \hline
+			\textit{ОЗУ} & 2 GB & 4 GB \\ \hline
+			\textit{CD-ROM привод} & Нет & Нет \\ \hline
+			\textit{Свободное место на HDD} & 4 GB & 4 GB \\ \hline
+			\textit{Видеокарта} & NVIDIA GeForce 9800 GT \newline или AMD Radeon HD 4870 & NVIDIA GeForce GTX 750 Ti \newline или AMD Radeon R7 260X \\ \hline
+			\textit{Звуковая карта} & Совместимая с DirectX 9.0c & Совместимая с DirectX 12 \\ \hline
+			\textit{Управление} & Клавиатура и мышь & Клавиатура, мышь, геймпад \\ \hline
+		\end{tabular}
+		\caption{Системные требования для Windows}
+		\label{tab:system-requirements1}
+	\end{table}
+	
+	\begin{table}[h!]
+		\centering
+		\renewcommand{\arraystretch}{1.5}
+		\setlength{\tabcolsep}{8pt}
+		\begin{tabular}{|l|c|c|}
+			\hline
+			\multicolumn{3}{|c|}{\textbf{Для macOS}} \\ \hline
+			\textbf{Требования} & \textbf{Минимальные} & \textbf{Рекомендуемые} \\ \hline
+			\textit{Операционная система} & macOS X 10.8 & macOS 13.0 Ventura \\ \hline
+			\textit{Процессор} &  Intel Core 2 Duo & Apple M1 \\ \hline
+			\textit{ОЗУ} & 2 GB & 2 GB \\ \hline
+			\textit{CD-ROM привод} & Нет & Нет \\ \hline
+			\textit{Свободное место на HDD} & 4 GB & 4 GB \\ \hline
+			\textit{Видеокарта} & Intel(R) HD Graphics 520 & Dedicated GPU supporting OpenGL \\ \hline
+			\textit{Звуковая карта} & Встроенная & Встроенная \\ \hline
+			\textit{Управление} & Клавиатура и мышь & Клавиатура, мышь, геймпад \\ \hline
+		\end{tabular}
+		\caption{Системные требования для macOS}
+		\label{tab:system-requirements2}
+	\end{table}
+	
+	\newpage
 	\section{Функциональная спецификация}
 	
 	\subsection{Принципы игры}
@@ -38,16 +100,22 @@
 	
 	\subsubsection{Ход игры и сюжет}
 	
+	\newpage
 	\subsection{Физическая модель}
 	
+	\newpage
 	\subsection{Персонаж игрока}
 	
+	\newpage
 	\subsection{Элементы игры}
 	
+	\newpage
 	\subsection{«Искусственный интеллект»}
 	
+	\newpage
 	\subsection{Многопользовательский режим}
 	
+	\newpage
 	\subsection{Интерфейс пользователя}
 	
 	\subsubsection{Блок-схема}
@@ -56,6 +124,7 @@
 	
 	\subsubsection{Объекты интерфейса пользователя}
 	
+	\newpage
 	\subsection{Графика и видео}
 	
 	\subsubsection{Общее описание}
@@ -66,6 +135,7 @@
 	
 	\subsubsection{Анимационные вставки}
 	
+	\newpage
 	\subsection{Звуки и музыка}
 	
 	\subsubsection{Общее описание}
@@ -74,6 +144,7 @@
 	
 	\subsubsection{Музыка}
 	
+	\newpage
 	\subsection{Описание уровней}
 	
 	\subsubsection{Общее описание дизайна уровней}
@@ -82,6 +153,7 @@
 	
 	\subsubsection{График введения новых объектов}
 	
+	\newpage
 	\section{Контакты}
 	
 	\newpage
